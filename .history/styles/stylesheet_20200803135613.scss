@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+    a{
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+body,html, .bg-dark {
+    background-color: black !important;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    .icon-long, .icon-short {
+        border: 2px solid white;
+    }
+    .icon-long {
+        width: 50px;
+    }
+    .icon-short {
+        width: 20px;
+    }
+}

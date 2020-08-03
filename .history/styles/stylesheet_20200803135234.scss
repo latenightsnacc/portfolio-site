@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+    a{
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+body,html {
+    background-color: black;
+}
+
+.menu-icon {
+    
+}
